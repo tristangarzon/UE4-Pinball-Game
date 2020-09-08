@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\PinballGame.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{47CC5000-382D-43E5-9304-F130D68C081E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PinballGame.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\PinballGameEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{C702ECA7-07F0-44E8-8572-0893F94F7525}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\PinballGame">
+			<UniqueIdentifier>{954B2FEA-495D-411B-93DB-98462634A374}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\PinballGame\PinballGame.Build.cs">
+			<Filter>Source\PinballGame</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\PinballGame\PinballGame.cpp">
+			<Filter>Source\PinballGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PinballGame\PinballGame.h">
+			<Filter>Source\PinballGame</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\PinballGame\PinballGameGameModeBase.cpp">
+			<Filter>Source\PinballGame</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\PinballGame\PinballGameGameModeBase.h">
+			<Filter>Source\PinballGame</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
